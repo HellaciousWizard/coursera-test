@@ -5,10 +5,29 @@ h1{
 	text-align: center;
 }
 .row{
+	margin-top: 50px;
 	width: 100%;
 }
 
+#ch{
+	background-color: #FFB6C1;
+}
+
+#bf{
+	background-color: #B22222;
+}
+
+#sus{
+	background-color: #EEE8AA;
+}
+
+div{
+	background-color: #BCBCBC;
+}
+
 p{
+	font-family: "arial";
+	font-weight: bold;
 	width: 20%;
 	margin: 0px;
 	text-align: center;
@@ -17,28 +36,44 @@ p{
 	left: 80.2%;
 }
 
+
 /***********Large Devices*********/
-@media (min-width: 1200px){
+@media (min-width: 992px){
 	.col-lg-3{
 		float: left;
-		margin-left: 5px;
-		margin-bottom: 10px;
-		border: 2.5px solid black;
+		margin-left: 1.2%;
+		margin-bottom: 1.5%;
+		border: 1px solid black;
 	}
 	.col-lg-3{
-		width: 33%;
+		width: 31.8%;
 	}
 }
 
 /***********Medium Devices*********/
-@media (min-width: 950px) and (max-width: 1199px){
+@media (min-width: 768px) and (max-width: 991px){
 	.col-md-3{
 		float: left;
-		margin-left: 5px;
-		margin-bottom: 10px;	
-		border: 1px solid green;
+		margin-left: 1.5%;
+		margin-bottom: 1.5%;	
+		border: 1px solid black;
 	}
 	.col-md-3{
-		width: 50%;
+		width: 48%;
+		
+	}
+	
+	#div3{
+		width: 97.6%;
+	}
+}
+@media (min-width: 0px) and (max-width: 767px){
+	.col-sd-3{
+		float: left;
+		margin-bottom: 2%;
+		border: 1px solid black;
+	}
+	.col-sd-3{
+		width: 98.5%;
 	}
 }
