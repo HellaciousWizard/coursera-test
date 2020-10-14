@@ -67,7 +67,7 @@ p{
 		width: 97.6%;
 	}
 }
-@media (min-width: 0px) and (max-width: 767px){
+@media (max-width: 767px){
 	.col-sd-3{
 		float: left;
 		margin-bottom: 2%;
